@@ -261,7 +261,7 @@ update_script() {
     
     # 下载新的服务脚本
     echo_color "$BLUE" "Downloading latest service script..."
-    wget -O /etc/init.d/uu https://raw.githubusercontent.com/PKC278/openwrt-uuplugin/main/uu
+    wget -O /etc/init.d/uu https://raw.githubusercontent.com/PKC278/openwrt-uuplugin/main/uu.init
     
     if [ $? -ne 0 ]; then
         echo_color "$RED" "Failed to download service script"
