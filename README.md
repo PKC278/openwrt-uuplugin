@@ -11,11 +11,13 @@
 > *   `wget`: 用于下载插件文件。
 > *   `tar`: 用于解压插件压缩包。
 > *   `ca-bundle`: HTTPS 根证书。
+> *   `kmod-tun`: 用于创建虚拟网卡。
+> *   `kmod-nf-conntrack-netlink`: 用于跟踪用户空间连接。
 >
 > 可以通过以下命令安装它们：
 >
 > ```sh
-> opkg update && opkg install curl jq wget tar ca-bundle
+> opkg update && opkg install curl jq wget tar ca-bundle kmod-tun kmod-nf-conntrack-netlink
 > ```
 
 ### 1. 安装脚本
