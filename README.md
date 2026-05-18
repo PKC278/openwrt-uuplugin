@@ -19,6 +19,10 @@
 > ```sh
 > opkg update && opkg install curl jq wget tar ca-bundle kmod-tun kmod-nf-conntrack-netlink
 > ```
+> 或
+> ```sh
+> apk update && apk add curl jq wget tar ca-bundle kmod-tun kmod-nf-conntrack-netlink
+> ```
 
 ### 1. 安装脚本
 
